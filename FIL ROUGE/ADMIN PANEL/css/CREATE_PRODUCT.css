@@ -1,0 +1,75 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.header1 {
+    background-color: rgb(0, 54, 36);
+    color: cornsilk;
+    height: 50px;
+    width: 101%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.navbar-nav {
+    background-color: rgba(0, 54, 36, 0.548) !important;
+    height: 100%;
+    padding-top: 30%;
+
+}
+
+.link {
+    color: cornsilk !important;
+}
+
+.nav-link {
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main-buttons {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.User {
+    text-align: end;
+}
+
+.AdminPanel {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.mynav {
+    height: 100vh !important;
+}
+
+.article_col
+{
+    display: flex !important;
+    flex-direction: column;
+    width: 90%;
+    margin: 5px 10px 5px 10px;
+    
+}
+
+input , textarea
+{
+    margin-bottom: 10px;
+}
+ 
+button
+{
+    width: 100px;
+}
+
+.button_container
+{
+    display: flex;
+justify-content: center;
+}

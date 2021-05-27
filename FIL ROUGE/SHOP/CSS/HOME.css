@@ -1,0 +1,97 @@
+body {
+    overflow-x: hidden;
+    /* background: #0d1d31 !important; */
+    background-image: url(https://i2.wp.com/wallpapertag.com/wallpaper/full/e/c/7/143823-popular-4k-gaming-wallpapers-3840x2160.jpg) !important;
+    background-size:initial;
+    background-repeat: no-repeat;
+}
+
+.card-img-top {
+    width:180px;
+    height:180px;
+ 
+ /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+     object-fit:scale-down;
+}
+
+.card {
+    border: 2px double grey;
+    background-color: rgb(255, 255, 255) !important;
+    height: 500px !important;
+    width: fit-content!important;
+    margin: 5% !important;
+    margin-right: 0px !important;
+    text-align: center !important;
+    -webkit-box-shadow: 5px 5px 17px 5px #000000; 
+box-shadow: 5px 5px 17px 5px #000000;
+}
+
+.col {
+    height: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 10px;
+}
+
+.row {
+    position: absolute;
+    top: 500px;
+    margin: 5% !important;
+    margin-top: 20% !important;
+    padding: 50px;
+    height: 100% !important;
+
+}
+
+.carousel {
+    position: absolute;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 50% !important;
+    width: 60% !important;
+    
+}
+
+.Latest-keys
+{
+    color: white ;
+    text-align: center;
+    margin-top: 10%;
+    font-size : 50px;
+    text-decoration: underline;
+}
+
+.carousel-inner
+{
+    border: 5px groove white;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 8px 4px 6px #C9C9C9; 
+box-shadow: 5px 8px 4px 6px #C9C9C9;
+}
+
+.card-body  p1
+{
+    color: black !important;
+    margin: 10% !important;
+     
+
+}
+
+.price 
+{
+    background: rgba(255, 0, 0, 0.329);
+    font-weight: 700;
+}
+
+.desc
+{
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.buy
+{
+    margin-bottom: 0px !important;
+}

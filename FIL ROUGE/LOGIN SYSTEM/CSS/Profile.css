@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none !important;
+    text-align: center;
+}
+
+li {
+    display: inline;
+
+}
+
+.navbar {
+    margin-top: 2%;
+}
